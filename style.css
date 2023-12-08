@@ -1,0 +1,342 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Nimbus-Sans";
+  box-sizing: border-box;
+}
+
+html,body {
+      width: 100%;
+      height: 100;
+}
+
+#main {
+      width: 100%;
+}
+
+
+
+#nav {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      padding: 3vw 10vw;
+}
+
+#nleft {
+      display: flex;
+      gap: 30px;
+}
+
+#nav a {
+      display: inline-block;
+      font-weight: 500;
+      font-size: 15px;
+      text-decoration: none;
+      color: black;
+}
+
+#nav #centeratag {
+      font-size: 17px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+#hero{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-top: 15vw;
+      padding: 0vw 10vw;
+}
+
+#sustain {
+      width: 10vw;
+}
+
+#sustain p {
+      text-transform: capitalize;
+      font-weight: 900;
+            letter-spacing: -.0.5vw;
+            font-weight: 100;
+      opacity: .5;
+      font-size: 12px;
+      margin: 10px 0;
+}
+
+#sustain #susimagewrapper {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 15vw;
+      
+}
+
+#susimagewrapper img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+#melophiles {
+      position: relative;
+      width: 30vw;
+      min-height: 42vw;
+}
+
+#imgntext {
+      width: fit-content;
+      height: fit-content;
+}
+
+#melophiles img {
+     width: 100%;
+     height: 100%;
+     object-fit:cover
+}
+
+#melophiles p {
+      font-size: 1.5vw;
+      letter-spacing: -.10vw;
+      line-height: 1.3;
+      width: 40%;
+}
+
+#melophiles #headings {
+      top: -22%;
+      left: -20%;
+      position: absolute;
+      
+}
+
+#melophiles h1 {
+      letter-spacing: -.1vw;
+      line-height: 1;
+      font-size: 6.5vw;
+      font-weight: 400;
+}
+
+#melophiles h2{
+      letter-spacing: -.1vw;
+      line-height: 1;
+      font-size: 6.5vw;
+      font-weight: 400;
+      color: rgb(91, 180, 156);
+}
+
+#visit{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+}
+
+#circlev {
+      border-radius: 50%;
+      border: 1px solid #5e5e5e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 3vw;
+      height: 3vw;
+}
+
+#circlev i {
+      color: #5e5e5e;
+}
+
+#visit h3 {
+      font-weight: 400;
+      color: #5e5e5e;
+}
+
+#motive {
+      margin-top: 7vw;
+      display: flex;
+      justify-content: space-between;
+      padding: 3vw 10vw;
+}
+
+#motive p {
+      line-height: 1.5;
+      letter-spacing: -.10vw;
+      position: relative;
+      right: 0;
+      width: 84%;
+      text-align: right;
+      font-size: 1.8vw;
+}
+
+#motive span {
+      display: inline-block;
+      border-radius: 100px;
+      margin: 0 5px;
+      background-color: #5e5e5e;
+      margin-bottom: -9.5px;
+}
+
+#one {
+      width: 80px;
+      height: 45px;
+      background-image: url(Span\ 2.jpg); 
+     background-size: cover;
+     background-position: 75% 55%;
+}
+
+#two {
+      width: 110px;
+      height: 50px;
+     background-image: url(Span\ 1.jpg); 
+     background-size: cover;
+     background-position: 35% 75%;
+}
+
+#three {
+      width: 80px;
+      height: 45px;
+      background-image: url(Span\ 3.jpg); 
+     background-size: cover;
+     background-position: 75% 55%;
+}
+
+#pictures {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8vw;
+      padding: 3v;
+      padding-right: 12vw;
+      padding-left: 14vw;
+}
+
+#firstpic {
+      width: 17vw;
+}
+
+#firstpic #picimg{
+      width: 100%;
+      height: 24vw;
+      margin-bottom: 1vw;
+}
+
+#picimg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+#firstpic h1, #secpic h1 {
+      letter-spacing: -.0vw;
+      font-weight: 100;
+      font-size: 2vw;
+}
+
+#firstpic p, #secpic p {
+      opacity: .8;
+      font-size: 1vw;
+      letter-spacing: -.05;
+      line-height: 1;
+      margin-top: 10px;
+}
+
+#secpic #picimg{
+      width: 100%;
+      height: 37vw;
+      margin-bottom: 1vw;
+}
+
+#secpic {
+      width: 25vw;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+}
+
+#secpic p{
+      width: 50%;
+      text-align: right;
+}
+
+#banner {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 8vw;
+}
+
+#bimg{
+      width: 65%;
+      height: 60vh;
+}
+
+#bimg img{
+      width: 100%;
+      height: 100%;
+      object-position: 60% 10%;
+      object-fit: cover;
+}
+
+#btext {
+      width: 35%;
+      padding: 0 3vw;
+}
+
+#btext h1 {
+      font-size: 2.7vw;
+      font-weight: 400;
+      letter-spacing: -.0.7vw;
+      line-height: 1;
+}
+
+#btext p {
+      margin-top: 15px;
+      width: 60%;
+      font-size: 1.2vw;
+}
+
+#music{
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      background-color: #fff;
+}
+
+#music video {
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 100%;
+}
+
+#mtext{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      z-index: 9999;
+}
+
+#mtext h1{
+      color: #fff;
+}
+
+#mtext button{
+      padding: .8vw 1.7vw;
+      font-size: .9vw;
+      font-weight: 800;
+      margin-top: 10px;
+      border-radius: 100px;
+      background-color: #fff;
+      border: 1px solid #c6c6c6;
+      color: #696767;
+}
+
+
